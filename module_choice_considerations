@@ -10,4 +10,14 @@ Cursory evaluation of module choices by means of pros and cons:
     The specification is vague on how the user access channel relates to the data module.
     UC12 and UC13 is not documented in the specification.
     There is a lot of room that is open to interpretation.
-    There is strong coupling between the data module and the access module, but they forgot to mention in Figure 1 where it fits in. It is also not mention in the list of modules we can choose from. 
+    There is strong coupling between the data module and the access module, but they forgot to mention in Figure 1 where it fits in. It is also not mention in the list of modules we can choose from.
+
+2. GIS
+  Pros:
+    The module is very concrete since we know exactly what sort of data will be stored.
+    It is an easy module to comprehend, therefore team member will have an easier time to divide and conquer.
+    Also, we can make use of standards from the Open Geospatial Consortium if we want to take it to the next level.
+  Cons:
+    The standards might be hard to learn.
+    It is not rich in opportunities for UML diagrams. This is important because we get a lot of marks for them.
+
