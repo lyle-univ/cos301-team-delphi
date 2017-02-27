@@ -1,0 +1,13 @@
+It would be convenient if we choose modules that lend themselves to high cohesion.
+That is, each module is part of the same subsystem and they perform related tasks. This is convenient since we can dictate the interfaces between the related modules, thus making our design decisions more concrete and complete.
+
+Cursory evaluation of module choices by means of pros and cons:
+1. Data
+  Pros:
+    The module is rich in complexity, so there is a lot of opportunities to make use of design patterns and uml diagrams such as the Observer pattern and State diagrams.
+  Cons:
+    The specification makes no mention on the exact role of the upstream and downstream manager.
+    The specification is vague on how the user access channel relates to the data module.
+    UC12 and UC13 is not documented in the specification.
+    There is a lot of room that is open to interpretation.
+    There is strong coupling between the data module and the access module, but they forgot to mention in Figure 1 where it fits in. It is also not mention in the list of modules we can choose from. 
