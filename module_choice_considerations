@@ -21,3 +21,11 @@ Cursory evaluation of module choices by means of pros and cons:
     The standards might be hard to learn.
     It is not rich in opportunities for UML diagrams. This is important because we get a lot of marks for them.
 
+3. Users:
+  Pros:
+    It only needs to provide a single service(UC1): getUser(userName), but I think this is a mistake in the document.
+  Cons:
+    The specification states that users may "request services from the various modules and persist private information
+related to particular services". Which means that we need to figure out what private information needs to be stored, and which services require what private information.
+
+
