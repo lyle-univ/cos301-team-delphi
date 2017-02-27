@@ -29,4 +29,10 @@ Cursory evaluation of module choices by means of pros and cons:
 related to particular services". Which means that we need to figure out what private information needs to be stored, and which services require what private information.
     The specification does not mention how the User Management Module relates to user access channels.
 
+4. Notification module:
+  Pros:
+    
+  Cons:
+    UC7 in the diagram is not the same as UC7 in the rest of the document. Also, the notion of a notification request is not very clear.
+
 
