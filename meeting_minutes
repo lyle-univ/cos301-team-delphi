@@ -1,0 +1,14 @@
+Feb27 14:30 :
+  Itinerary:
+    Module choices
+    Tools choices(UML software etc)
+    Workflow conventions
+    Branch conventions
+    LaTeX document skeleton
+ 
+  Decisions made:
+    Module choices: We decided to do the following 4 modules: Data, GIS, Users and Navigation.
+    Tools choices: Umlet will be used to generate diagrams.
+    Workflow conventions: We will follow the workflow as set out in the README file.
+    Branch conventions: Will include a master branch, a wip(work in progress) branch and a remote backup branch for each member.
+    LaTeX document skeleton: We have decided to postpone the document skeleton until everyone has had time to go through the requirements specification and the assignment document.

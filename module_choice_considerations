@@ -10,4 +10,29 @@ Cursory evaluation of module choices by means of pros and cons:
     The specification is vague on how the user access channel relates to the data module.
     UC12 and UC13 is not documented in the specification.
     There is a lot of room that is open to interpretation.
-    There is strong coupling between the data module and the access module, but they forgot to mention in Figure 1 where it fits in. It is also not mention in the list of modules we can choose from. 
+    There is strong coupling between the data module and the access module, but they forgot to mention in Figure 1 where it fits in. It is also not mention in the list of modules we can choose from.
+
+2. GIS
+  Pros:
+    The module is very concrete since we know exactly what sort of data will be stored.
+    It is an easy module to comprehend, therefore team member will have an easier time to divide and conquer.
+    Also, we can make use of standards from the Open Geospatial Consortium if we want to take it to the next level.
+  Cons:
+    The standards might be hard to learn.
+    It is not rich in opportunities for UML diagrams. This is important because we get a lot of marks for them.
+
+3. Users:
+  Pros:
+    It only needs to provide a single service(UC1): getUser(userName), but I think this is a mistake in the document.
+  Cons:
+    The specification states that users may "request services from the various modules and persist private information
+related to particular services". Which means that we need to figure out what private information needs to be stored, and which services require what private information.
+    The specification does not mention how the User Management Module relates to user access channels.
+
+4. Notification module:
+  Pros:
+    
+  Cons:
+    UC7 in the diagram is not the same as UC7 in the rest of the document. Also, the notion of a notification request is not very clear.
+
+
