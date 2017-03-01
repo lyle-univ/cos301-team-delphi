@@ -717,7 +717,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1040</x>
+      <x>1140</x>
       <y>510</y>
       <w>30</w>
       <h>50</h>
@@ -731,7 +731,7 @@ layer=2</panel_attributes>
     <coordinates>
       <x>870</x>
       <y>540</y>
-      <w>370</w>
+      <w>170</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Filters
@@ -744,8 +744,8 @@ fg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1040</x>
-      <y>560</y>
+      <x>940</x>
+      <y>510</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -756,9 +756,9 @@ layer=2</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>870</x>
-      <y>590</y>
-      <w>370</w>
+      <x>1060</x>
+      <y>540</y>
+      <w>180</w>
       <h>70</h>
     </coordinates>
     <panel_attributes>Observers
@@ -772,7 +772,7 @@ layer=3</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>1080</x>
-      <y>620</y>
+      <y>570</y>
       <w>150</w>
       <h>30</h>
     </coordinates>
@@ -916,5 +916,29 @@ bg=green
 layer=5
 transparency=30</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1030</x>
+      <y>710</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1070</x>
+      <y>710</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
 </diagram>
