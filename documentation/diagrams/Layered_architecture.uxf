@@ -124,26 +124,26 @@ transparency=70</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>980</x>
+      <x>1100</x>
       <y>170</y>
       <w>30</w>
-      <h>180</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1250</x>
+      <x>1130</x>
       <y>170</y>
       <w>30</w>
-      <h>180</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -163,26 +163,26 @@ transparency=0</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>850</x>
+      <x>880</x>
       <y>170</y>
       <w>30</w>
-      <h>180</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>950</x>
+      <x>920</x>
       <y>170</y>
       <w>30</w>
-      <h>180</h>
+      <h>210</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -204,14 +204,14 @@ fg=black</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>320</x>
+      <x>550</x>
       <y>260</y>
       <w>30</w>
-      <h>90</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -229,14 +229,14 @@ bg=pink</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>820</x>
+      <x>590</x>
       <y>260</y>
       <w>30</w>
-      <h>90</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -248,8 +248,8 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>Guest
 layer=2
-bg=orange
-transparency=10</panel_attributes>
+transparency=10
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -262,8 +262,8 @@ transparency=10</panel_attributes>
     </coordinates>
     <panel_attributes>Student
 layer=2
-bg=orange
-transparency=10</panel_attributes>
+transparency=10
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -276,8 +276,8 @@ transparency=10</panel_attributes>
     </coordinates>
     <panel_attributes>Lecturer
 layer=2
-bg=orange
-transparency=10</panel_attributes>
+transparency=10
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -290,8 +290,8 @@ transparency=10</panel_attributes>
     </coordinates>
     <panel_attributes>Disabled
 layer=2
-bg=orange
-transparency=10</panel_attributes>
+transparency=10
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -304,7 +304,9 @@ transparency=10</panel_attributes>
     </coordinates>
     <panel_attributes>User types
 layer=2
-bg=yellow</panel_attributes>
+
+fg=black
+bg=dark_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -366,7 +368,7 @@ transparency=70</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>550</x>
+      <x>510</x>
       <y>200</y>
       <w>30</w>
       <h>50</h>
@@ -378,7 +380,7 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>590</x>
+      <x>640</x>
       <y>200</y>
       <w>30</w>
       <h>50</h>
