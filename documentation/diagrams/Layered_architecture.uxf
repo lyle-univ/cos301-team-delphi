@@ -17,52 +17,14 @@ bg=gray</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>320</x>
-      <y>320</y>
+      <y>330</y>
       <w>950</w>
-      <h>500</h>
+      <h>490</h>
     </coordinates>
     <panel_attributes>Service
 layer=1
 bg=cyan</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>330</x>
-      <y>780</y>
-      <w>930</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Data aggregate and sanitiser
-layer=2
-bg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>330</x>
-      <y>730</y>
-      <w>930</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Database
-layer=2
-bg=blue</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>790</x>
-      <y>750</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -93,30 +55,6 @@ layer=2
 bg=light_gray
 transparency=0</panel_attributes>
     <additional_attributes/>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>920</x>
-      <y>680</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=&lt;-
-layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>660</x>
-      <y>680</y>
-      <w>30</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -204,11 +142,11 @@ group=3</panel_attributes>
       <x>980</x>
       <y>170</y>
       <w>30</w>
-      <h>170</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -216,11 +154,11 @@ layer=2</panel_attributes>
       <x>1250</x>
       <y>170</y>
       <w>30</w>
-      <h>170</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -253,11 +191,11 @@ layer=2</panel_attributes>
       <x>950</x>
       <y>170</y>
       <w>30</w>
-      <h>170</h>
+      <h>180</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;160.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -277,13 +215,13 @@ bg=none</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>320</x>
-      <y>280</y>
+      <y>300</y>
       <w>30</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -291,7 +229,7 @@ layer=2</panel_attributes>
       <x>320</x>
       <y>70</y>
       <w>520</w>
-      <h>220</h>
+      <h>240</h>
     </coordinates>
     <panel_attributes>Mobile(Android &amp; IOS)
 layer=1
@@ -302,13 +240,13 @@ bg=pink</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>820</x>
-      <y>280</y>
+      <y>300</y>
       <w>30</w>
-      <h>60</h>
+      <h>50</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -379,11 +317,11 @@ bg=yellow</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>330</x>
-      <y>250</y>
-      <w>440</w>
+      <y>270</y>
+      <w>250</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Data cache
+    <panel_attributes>GIS Data Cache
 layer=2
 bg=blue</panel_attributes>
     <additional_attributes/>
@@ -402,5 +340,55 @@ layer=2
 transparency=10
 bg=orange</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>590</x>
+      <y>270</y>
+      <w>240</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Position by sensor integration
+layer=2
+bg=red</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>220</y>
+      <w>500</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Navigation
+layer=2
+bg=yellow</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>240</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>240</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
 </diagram>
