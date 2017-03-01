@@ -198,7 +198,7 @@ from data
 stream
 layer=2
 bg=blue
-fg=black</panel_attributes>
+fg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -468,7 +468,7 @@ transparency=70</panel_attributes>
     </coordinates>
     <panel_attributes>Data capture
 layer=2
-bg=blue
+bg=magenta
 fg=white</panel_attributes>
     <additional_attributes/>
   </element>
@@ -483,6 +483,100 @@ fg=white</panel_attributes>
     <panel_attributes>Add-ons
 bg=yellow
 layer=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>330</x>
+      <y>510</y>
+      <w>400</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>GIS
+layer=2
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>430</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>680</x>
+      <y>430</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>370</x>
+      <y>480</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>520</x>
+      <y>480</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>570</x>
+      <y>540</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Map Images
+fg=white
+layer=3
+bg=light_gray
+transparency=80
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>340</x>
+      <y>540</y>
+      <w>190</w>
+      <h>220</h>
+    </coordinates>
+    <panel_attributes>Map Features
+fg=white
+layer=3
+bg=light_gray
+transparency=80
+</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
