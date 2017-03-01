@@ -490,7 +490,7 @@ layer=2</panel_attributes>
     <coordinates>
       <x>330</x>
       <y>510</y>
-      <w>400</w>
+      <w>390</w>
       <h>260</h>
     </coordinates>
     <panel_attributes>GIS
@@ -550,17 +550,17 @@ layer=2</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>570</x>
-      <y>540</y>
+      <x>540</x>
+      <y>730</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Map Images
 fg=white
 layer=3
-bg=light_gray
-transparency=80
-</panel_attributes>
+bg=magenta
+transparency=40
+layer=4</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -572,6 +572,67 @@ transparency=80
       <h>220</h>
     </coordinates>
     <panel_attributes>Map Features
+fg=white
+layer=3
+bg=light_gray
+transparency=80
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>570</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Static locations
+fg=white
+bg=magenta
+transparency=40
+layer=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>610</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Routes
+fg=white
+bg=magenta
+transparency=40
+layer=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>370</x>
+      <y>650</y>
+      <w>120</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Other
+fg=white
+bg=magenta
+transparency=40
+layer=4</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>540</x>
+      <y>540</y>
+      <w>170</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>Metadata
 fg=white
 layer=3
 bg=light_gray
