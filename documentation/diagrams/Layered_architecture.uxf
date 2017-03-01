@@ -360,7 +360,7 @@ transparency=30</panel_attributes>
       <x>520</x>
       <y>130</y>
       <w>90</w>
-      <h>70</h>
+      <h>30</h>
     </coordinates>
     <panel_attributes>Navigation
 layer=2
@@ -424,7 +424,7 @@ transparency=70</panel_attributes>
     <coordinates>
       <x>720</x>
       <y>130</y>
-      <w>90</w>
+      <w>100</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Fitness
@@ -436,7 +436,7 @@ transparency=70</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>620</x>
+      <x>520</x>
       <y>170</y>
       <w>90</w>
       <h>30</h>
@@ -450,12 +450,12 @@ transparency=70</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>720</x>
+      <x>620</x>
       <y>170</y>
-      <w>90</w>
+      <w>200</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Fitness
+    <panel_attributes>Other activities
 layer=3
 bg=green
 transparency=70</panel_attributes>
