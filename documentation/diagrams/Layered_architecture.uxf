@@ -17,9 +17,9 @@ bg=dark_gray</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>320</x>
-      <y>330</y>
+      <y>280</y>
       <w>950</w>
-      <h>490</h>
+      <h>540</h>
     </coordinates>
     <panel_attributes>Service
 layer=1
@@ -30,7 +30,7 @@ bg=cyan</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>360</x>
-      <y>390</y>
+      <y>340</y>
       <w>850</w>
       <h>30</h>
     </coordinates>
@@ -39,28 +39,28 @@ layer=3
 
 
 bg=light_gray
-transparency=0</panel_attributes>
+transparency=50</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>360</x>
-      <y>440</y>
+      <y>390</y>
       <w>850</w>
       <h>30</h>
     </coordinates>
     <panel_attributes>Privilege Manager
 layer=2
 bg=light_gray
-transparency=0</panel_attributes>
+transparency=50</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>660</x>
-      <y>410</y>
+      <y>360</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -72,7 +72,7 @@ layer=2</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>920</x>
-      <y>410</y>
+      <y>360</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -127,11 +127,11 @@ transparency=70</panel_attributes>
       <x>1100</x>
       <y>170</y>
       <w>30</w>
-      <h>210</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -139,11 +139,11 @@ layer=2</panel_attributes>
       <x>1130</x>
       <y>170</y>
       <w>30</w>
-      <h>210</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -166,11 +166,11 @@ transparency=0</panel_attributes>
       <x>880</x>
       <y>170</y>
       <w>30</w>
-      <h>210</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
@@ -178,11 +178,11 @@ layer=2</panel_attributes>
       <x>920</x>
       <y>170</y>
       <w>30</w>
-      <h>210</h>
+      <h>160</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;190.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;140.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -192,10 +192,10 @@ layer=2</panel_attributes>
       <w>100</w>
       <h>70</h>
     </coordinates>
-    <panel_attributes>Generate
-Metadata
-from data
-stream
+    <panel_attributes>Observe data
+stream and
+generate
+metadata
 layer=2
 bg=blue
 fg=white</panel_attributes>
@@ -207,11 +207,11 @@ fg=white</panel_attributes>
       <x>550</x>
       <y>260</y>
       <w>30</w>
-      <h>120</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -232,11 +232,11 @@ bg=pink</panel_attributes>
       <x>590</x>
       <y>260</y>
       <w>30</w>
-      <h>120</h>
+      <h>70</h>
     </coordinates>
     <panel_attributes>lt=&lt;-
 layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;100.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -248,8 +248,8 @@ layer=2</panel_attributes>
     </coordinates>
     <panel_attributes>Guest
 layer=2
-transparency=10
-bg=light_gray</panel_attributes>
+transparency=100
+bg=gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -262,7 +262,7 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes>Student
 layer=2
-transparency=10
+transparency=100
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
@@ -276,7 +276,7 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes>Lecturer
 layer=2
-transparency=10
+transparency=100
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
@@ -290,7 +290,7 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes>Disabled
 layer=2
-transparency=10
+transparency=100
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
@@ -306,7 +306,8 @@ bg=light_gray</panel_attributes>
 layer=2
 
 fg=black
-bg=dark_gray</panel_attributes>
+bg=dark_gray
+transparency=70</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -327,7 +328,7 @@ fg=white</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>330</x>
-      <y>360</y>
+      <y>310</y>
       <w>930</w>
       <h>130</h>
     </coordinates>
@@ -348,7 +349,9 @@ bg=orange</panel_attributes>
     </coordinates>
     <panel_attributes>Position by sensor integration
 layer=2
-bg=red</panel_attributes>
+bg=red
+fg=white
+transparency=30</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -489,20 +492,21 @@ layer=2</panel_attributes>
     <id>UMLClass</id>
     <coordinates>
       <x>330</x>
-      <y>510</y>
+      <y>460</y>
       <w>390</w>
       <h>260</h>
     </coordinates>
     <panel_attributes>GIS
 layer=2
 bg=blue
-fg=white</panel_attributes>
+fg=white
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
+      <x>490</x>
       <y>430</y>
       <w>30</w>
       <h>50</h>
@@ -514,32 +518,8 @@ layer=2</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>680</x>
+      <x>540</x>
       <y>430</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>370</x>
-      <y>480</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>520</x>
-      <y>480</y>
       <w>30</w>
       <h>50</h>
     </coordinates>
@@ -550,8 +530,8 @@ layer=2</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
-      <y>730</y>
+      <x>560</x>
+      <y>680</y>
       <w>130</w>
       <h>30</h>
     </coordinates>
@@ -560,30 +540,32 @@ fg=white
 layer=3
 bg=magenta
 transparency=40
-layer=4</panel_attributes>
+layer=4
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>340</x>
-      <y>540</y>
-      <w>190</w>
-      <h>220</h>
+      <y>490</y>
+      <w>180</w>
+      <h>180</h>
     </coordinates>
     <panel_attributes>Map Features
 fg=white
 layer=3
 bg=light_gray
 transparency=80
-</panel_attributes>
+
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>370</x>
-      <y>570</y>
+      <y>520</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -591,14 +573,15 @@ transparency=80
 fg=white
 bg=magenta
 transparency=40
-layer=4</panel_attributes>
+layer=4
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>370</x>
-      <y>610</y>
+      <y>560</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -606,14 +589,15 @@ layer=4</panel_attributes>
 fg=white
 bg=magenta
 transparency=40
-layer=4</panel_attributes>
+layer=4
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>370</x>
-      <y>650</y>
+      <y>600</y>
       <w>120</w>
       <h>30</h>
     </coordinates>
@@ -621,14 +605,15 @@ layer=4</panel_attributes>
 fg=white
 bg=magenta
 transparency=40
-layer=4</panel_attributes>
+layer=4
+group=2</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
       <x>540</x>
-      <y>540</y>
+      <y>490</y>
       <w>170</w>
       <h>180</h>
     </coordinates>
@@ -637,7 +622,177 @@ fg=white
 layer=3
 bg=light_gray
 transparency=80
-</panel_attributes>
+
+group=2</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>520</y>
+      <w>130</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Congestion
+fg=white
+layer=3
+bg=magenta
+transparency=40
+layer=4
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>560</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Population
+density
+fg=white
+layer=3
+bg=magenta
+transparency=40
+layer=4
+group=2</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>860</x>
+      <y>460</y>
+      <w>390</w>
+      <h>260</h>
+    </coordinates>
+    <panel_attributes>Data Stream
+layer=2
+bg=blue
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>490</y>
+      <w>370</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Live stream of device positions
+bg=red
+layer=3
+transparency=30
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1020</x>
+      <y>430</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1060</x>
+      <y>430</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>510</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>540</y>
+      <w>370</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Filters
+transparency=70
+layer=3
+bg=cyan
+fg=white</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1040</x>
+      <y>560</y>
+      <w>30</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;
+layer=2</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>870</x>
+      <y>590</y>
+      <w>370</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>Observers
+bg=light_gray
+fg=black
+transparency=0
+layer=3</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>1080</x>
+      <y>620</y>
+      <w>150</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>Observer registry
+bg=magenta
+fg=white
+layer=4
+transparency=40</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>710</x>
+      <y>570</y>
+      <w>170</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;-
+layer=3</panel_attributes>
+    <additional_attributes>10.0;10.0;150.0;10.0</additional_attributes>
   </element>
 </diagram>
