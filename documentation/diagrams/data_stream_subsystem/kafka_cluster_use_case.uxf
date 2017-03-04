@@ -144,12 +144,12 @@ bg=light_gray</panel_attributes>
   <element>
     <id>UMLActor</id>
     <coordinates>
-      <x>210</x>
+      <x>220</x>
       <y>90</y>
-      <w>120</w>
+      <w>100</w>
       <h>110</h>
     </coordinates>
-    <panel_attributes>Administrator</panel_attributes>
+    <panel_attributes>Zookeeper</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
