@@ -366,8 +366,8 @@ bg=light_gray</panel_attributes>
     <coordinates>
       <x>1090</x>
       <y>230</y>
-      <w>140</w>
-      <h>130</h>
+      <w>150</w>
+      <h>160</h>
     </coordinates>
     <panel_attributes>Out of the box
 interfacing with
@@ -376,6 +376,8 @@ such as various
 databases,
 datastreams and
 filesystems.
+Supported through
+the Connector API.
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
