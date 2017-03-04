@@ -207,7 +207,7 @@ locations from
 outside the
 cluster. Supported
 through the 
-subscriber API.
+publisher API.
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
