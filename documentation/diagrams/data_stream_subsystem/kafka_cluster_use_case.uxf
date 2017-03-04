@@ -4,8 +4,8 @@
   <element>
     <id>UMLGeneric</id>
     <coordinates>
-      <x>480</x>
-      <y>180</y>
+      <x>470</x>
+      <y>80</y>
       <w>490</w>
       <h>570</h>
     </coordinates>
@@ -16,8 +16,8 @@ halign=left</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>650</x>
-      <y>420</y>
+      <x>640</x>
+      <y>320</y>
       <w>140</w>
       <h>50</h>
     </coordinates>
@@ -27,8 +27,8 @@ halign=left</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>650</x>
-      <y>330</y>
+      <x>640</x>
+      <y>230</y>
       <w>140</w>
       <h>50</h>
     </coordinates>
@@ -38,8 +38,8 @@ halign=left</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>640</x>
-      <y>510</y>
+      <x>630</x>
+      <y>410</y>
       <w>170</w>
       <h>70</h>
     </coordinates>
@@ -50,8 +50,8 @@ topic</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>640</x>
-      <y>610</y>
+      <x>630</x>
+      <y>510</y>
       <w>170</w>
       <h>70</h>
     </coordinates>
@@ -61,8 +61,8 @@ topic</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>660</x>
-      <y>210</y>
+      <x>650</x>
+      <y>110</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
@@ -72,12 +72,73 @@ topic</panel_attributes>
   <element>
     <id>UMLUseCase</id>
     <coordinates>
-      <x>660</x>
-      <y>270</y>
+      <x>650</x>
+      <y>170</y>
       <w>120</w>
       <h>40</h>
     </coordinates>
     <panel_attributes>Delete topic</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>220</x>
+      <y>250</y>
+      <w>100</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Subscriber</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>280</y>
+      <w>370</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;350.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>280</y>
+      <w>360</w>
+      <h>180</h>
+    </coordinates>
+    <panel_attributes>lt=-&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;340.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>70</x>
+      <y>270</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>The subscriber
+may be any
+program interested
+in a specific part of
+the data stream
+fg=black
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>210</x>
+      <y>270</y>
+      <w>60</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;40.0;20.0</additional_attributes>
   </element>
 </diagram>
