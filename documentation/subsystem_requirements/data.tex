@@ -1,5 +1,6 @@
 \subsubsection{Scope}
 From the provided requirements specification, the data streaming subsystem, in its most abstract form, is concerned with moving information between two or more entities. However, this subsystem is most fit to satisfy the additional requirement of aggregating and processing location data to generate metadata for user profiling, heatmaps and congestion of routes.
+
 \subsubsection{Technology choices}
 The data streaming subsystem can be broken up into 2 main systems, the publish-subscribe messaging system where all the data pours into, and the realtime stream processing system that analyses the data to generate useful metadata.
 We will be using components from the Hadoop framework to build the data streaming subsystem. For the first system we will be using Apache Kafka which is a distributed messaging system. For the second system we will be using Apache Storm which is a distributed realtime stream computation system. Due to the distributed nature of these technology choices, they have some very attractive software attributes. See below for a full discussion.
@@ -8,7 +9,7 @@ We will be using components from the Hadoop framework to build the data streamin
 
 \paragraph{Security}
 \mbox{}\\
-    Hadoop supports Kerberos network authentication so that when when the system scales to multiple clusters, individual machines cannot be impersonated to compromise the system. Additionally, encryption of network traffic between machines can also seamlessly be enabled to thwart a man in the middle attack.
+    Hadoop supports Kerberos network authentication so that when when the system scales to multiple clusters, individual machines cannot be impersonated to compromise the system. Additionally, encryption of network traffic between machines can also seamlessly be enabled to thwart a man in the middle attack as well as access control if that is needed.
 \paragraph{Portability}
 \mbox{}\\
 The subsystem is highly portable, both in terms of operating systems supported as well as seamless failover due to its distributed nature.
@@ -17,8 +18,7 @@ The subsystem is highly portable, both in terms of operating systems supported a
 It is a highly optimised system used by big companies such as Yahoo, Twitter and Pinterest to name a few. Because it is a distributed system, the perfomance needs can always be satisfied by deploying it on more machines. Moreover, the performance scales nearly linearly with the number of machines added to the cluster.
 \paragraph{Integrity}
 \mbox{}\\
-Since it is distributed, failover is seamless and the system can recover from malformed messages to power failures.
-Because of this, data integrity as well as the operational integrity of subsystem is very good.
+Since it is distributed, if a node fails catastrophically and there is a cluster of nodes, then the failover occurs seamlessly. Additionally, the system can recover from malformed messages to power failures. Due to the above reasons, data integrity as well as the operational integrity of subsystem is very good.
 
 \subsection{Apache Kafka}
 \begin{figure}[h]
