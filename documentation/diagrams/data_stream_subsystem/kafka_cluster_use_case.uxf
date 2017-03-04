@@ -55,7 +55,7 @@ topic</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Create topic</panel_attributes>
+    <panel_attributes>Create Broker</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -66,7 +66,7 @@ topic</panel_attributes>
       <w>120</w>
       <h>40</h>
     </coordinates>
-    <panel_attributes>Delete topic</panel_attributes>
+    <panel_attributes>Delete Broker</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -173,11 +173,10 @@ bg=light_gray</panel_attributes>
       <w>150</w>
       <h>90</h>
     </coordinates>
-    <panel_attributes>The administrator
-may be any 
-program or person
-with authorisation
-to create and delete
+    <panel_attributes>Coordination 
+service. Used to
+configure and 
+create brokers.
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
@@ -390,5 +389,29 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>200</x>
+      <y>80</y>
+      <w>150</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>A broker is an
+individual machine
+in the KafKa cluster</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>340</x>
+      <y>100</y>
+      <w>330</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;10.0;310.0;30.0</additional_attributes>
   </element>
 </diagram>
