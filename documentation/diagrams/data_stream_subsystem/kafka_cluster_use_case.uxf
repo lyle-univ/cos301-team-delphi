@@ -7,7 +7,7 @@
       <x>470</x>
       <y>80</y>
       <w>490</w>
-      <h>570</h>
+      <h>460</h>
     </coordinates>
     <panel_attributes>Kafka Cluster
 halign=left</panel_attributes>
@@ -45,17 +45,6 @@ halign=left</panel_attributes>
     </coordinates>
     <panel_attributes>Read from
 topic</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLUseCase</id>
-    <coordinates>
-      <x>630</x>
-      <y>510</y>
-      <w>170</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>Tap the data stream</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -108,13 +97,15 @@ topic</panel_attributes>
       <x>70</x>
       <y>270</y>
       <w>150</w>
-      <h>90</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>The subscriber
 may be any
 program interested
 in a specific part of
-the data stream
+the data stream.
+Supported through
+the subscriber API
 fg=black
 bg=light_gray</panel_attributes>
     <additional_attributes/>
@@ -206,15 +197,17 @@ bg=light_gray</panel_attributes>
     <coordinates>
       <x>1140</x>
       <y>160</y>
-      <w>130</w>
-      <h>110</h>
+      <w>150</w>
+      <h>140</h>
     </coordinates>
     <panel_attributes>Will be a program
 that commits
 mobiles device
 locations from
 outside the
-cluster
+cluster. Supported
+through the 
+subscriber API.
 bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
@@ -250,5 +243,79 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes/>
     <additional_attributes>10.0;40.0;280.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>1020</x>
+      <y>410</y>
+      <w>140</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Stream Processor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>1160</x>
+      <y>400</y>
+      <w>160</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Will be a program
+that reads one
+topic, processes it
+and publishes it
+to another topic.
+Supported through
+the stream API.
+fg=black
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>790</x>
+      <y>420</y>
+      <w>290</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;270.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>340</y>
+      <w>310</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;290.0;100.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>770</x>
+      <y>250</y>
+      <w>310</w>
+      <h>200</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;290.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1110</x>
+      <y>420</y>
+      <w>70</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;50.0;20.0</additional_attributes>
   </element>
 </diagram>
