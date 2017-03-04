@@ -133,12 +133,72 @@ bg=light_gray</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>300</x>
+      <x>290</x>
       <y>300</y>
-      <w>350</w>
+      <w>360</w>
       <h>160</h>
     </coordinates>
     <panel_attributes>lt=-</panel_attributes>
-    <additional_attributes>330.0;140.0;10.0;10.0</additional_attributes>
+    <additional_attributes>340.0;140.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLActor</id>
+    <coordinates>
+      <x>210</x>
+      <y>90</y>
+      <w>120</w>
+      <h>110</h>
+    </coordinates>
+    <panel_attributes>Administrator</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>110</y>
+      <w>380</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;20.0;360.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>290</x>
+      <y>130</y>
+      <w>380</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;10.0;360.0;60.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>60</x>
+      <y>110</y>
+      <w>150</w>
+      <h>90</h>
+    </coordinates>
+    <panel_attributes>The administrator
+may be any 
+program or person
+with authorisation
+to create and delete
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>200</x>
+      <y>110</y>
+      <w>60</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes/>
+    <additional_attributes>10.0;30.0;40.0;20.0</additional_attributes>
   </element>
 </diagram>
