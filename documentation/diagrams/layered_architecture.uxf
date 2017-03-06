@@ -659,26 +659,14 @@ layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
   </element>
   <element>
-    <id>Relation</id>
-    <coordinates>
-      <x>1130</x>
-      <y>510</y>
-      <w>30</w>
-      <h>50</h>
-    </coordinates>
-    <panel_attributes>lt=-&gt;
-layer=2</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
     <id>UMLClass</id>
     <coordinates>
       <x>860</x>
       <y>540</y>
-      <w>170</w>
+      <w>360</w>
       <h>30</h>
     </coordinates>
-    <panel_attributes>Filters
+    <panel_attributes>Distributed messaging system
 transparency=70
 layer=3
 bg=cyan
@@ -688,7 +676,7 @@ fg=white</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>930</x>
+      <x>1030</x>
       <y>510</y>
       <w>30</w>
       <h>50</h>
@@ -696,36 +684,6 @@ fg=white</panel_attributes>
     <panel_attributes>lt=-&gt;
 layer=2</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;30.0</additional_attributes>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1050</x>
-      <y>540</y>
-      <w>180</w>
-      <h>70</h>
-    </coordinates>
-    <panel_attributes>Observers
-bg=light_gray
-fg=black
-transparency=0
-layer=3</panel_attributes>
-    <additional_attributes/>
-  </element>
-  <element>
-    <id>UMLClass</id>
-    <coordinates>
-      <x>1070</x>
-      <y>570</y>
-      <w>150</w>
-      <h>30</h>
-    </coordinates>
-    <panel_attributes>Observer registry
-bg=magenta
-fg=white
-layer=4
-transparency=40</panel_attributes>
-    <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
