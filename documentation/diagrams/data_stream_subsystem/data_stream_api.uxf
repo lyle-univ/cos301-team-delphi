@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>10</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>650</x>
+      <y>230</y>
+      <w>370</w>
+      <h>190</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;Interface&gt;&gt;
+Data Stream API
+--
+-topic_handle_list: Subscriber
+--
++get_congestion_metadata(void): Message_type
++get_density_metadata(void): Message_type
+
+-subscribe_to_metadata_topic(topic:String): bool</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
