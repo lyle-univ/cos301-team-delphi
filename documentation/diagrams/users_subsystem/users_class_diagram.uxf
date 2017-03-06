@@ -35,7 +35,7 @@
       <x>460</x>
       <y>370</y>
       <w>430</w>
-      <h>130</h>
+      <h>120</h>
     </coordinates>
     <panel_attributes>AdminUser
 --
@@ -61,7 +61,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1020</x>
+      <x>960</x>
       <y>60</y>
       <w>210</w>
       <h>150</h>
