@@ -4,23 +4,45 @@
 \subsubsection{Software Attributes}
 
 	\paragraph{Efficiency}
-
-	The navigation subsystem will give realtime directions and pathfinding with minimal expenditure of time and resources. Some of these resources include battery power and mobile data. The decision of what route to take should be calculated with little to no latency and should adhere to all the conditions set by the user. The system should also require minimal memory, be small in size and produce optimal performance whilst taking into consideration time and resource constraints.
+	\mbox{}\\
+	The navigation subsystem will give realtime directions and pathfinding with minimal 
+	expenditure of time and resources. Some of these resources include battery power and mobile 
+	data. The decision of what route to take should be calculated with little to no latency and 
+	should adhere to all the conditions set by the user. The system should also require minimal 
+	memory, be small in size and produce optimal performance whilst taking into consideration 
+	time and resource constraints.
 
 	\paragraph{Portability}
-
-	The navigation system should be integrated in such a way as to ensure ease of portability between the web interface and the different devices that could host the mobile application. 
+	\mbox{}\\
+	The navigation system should be integrated in such a way as to ensure ease of portability
+	 between the web interface and the different devices that could host the mobile application. 
 
 	\paragraph{Maintainability}
-
-	It will allow for the evolution of the system by easily saving routes and if the route is popular enough, incorporating it into the default routes used. The system will be modular enough that separate sections can be modified and improved with minimal effect on the system as a whole. Ideally faulty or worn-out components can be repaired or replaced without having to replace still working parts, this will also allow for isolation of defects in the code and their subsequent correction.
+	\mbox{}\\
+	It will allow for the evolution of the system by easily saving routes and if the route is 
+	popular enough, incorporating it into the default routes used. The system will be modular
+	 enough that separate sections can be modified and improved with minimal effect on the 
+	 system as a whole. Ideally faulty or worn-out components can be repaired or replaced
+	  without having to replace still working parts, this will also allow for isolation of
+	  defects in the code and their subsequent correction.
 	
 	\paragraph{Cohesion}
-
-	This system will have high cohesion since all functions will be directed towards the core function of directing the user from one location to another. Each function will be strongly related and will work together as a functional unit.
+	\mbox{}\\
+	This system will have high cohesion since all functions will be directed towards the core
+	 function of directing the user from one location to another. Each function will be
+	  strongly related and will work together as a functional unit.
 
 \subsubsection{Technology choices}
-	The Anyplace API will be used as the naviation service for this sub-system. Anyplace is a good choice in API for a number of reasons: Anyplace is a free API hosted on github and created by university students. It provides indoor and outdoor navigation with accuracy of 1.96 meters. This is perfect for NavUP since it uses Wi-Fi to navigate and provides floormaps, which can be used in the GIS module. It also has additional features such as Wi-Fi heatmaps which will supliment other modules. This API allows for fast accurate addition of new buildings and it supports point of interest(PIO) to PIO navigation (plus easy addition of POI`s). On top of all this it also has support for crowdsourcing. This API contains many of the main features that NavUp intends to have, plus a number of extra features that will enhance NavUp`s navigation abilities, making it a good technology choice for the navigation module.
+	The Anyplace API will be used as the naviation service for this sub-system. Anyplace is a good 
+	choice in API for a number of reasons: Anyplace is a free API hosted on github and created by 
+	university students. It provides indoor and outdoor navigation with accuracy of 1.96 meters. 
+	This is perfect for NavUP since it uses Wi-Fi to navigate and provides floormaps, which can be 
+	used in the GIS module. It also has additional features such as Wi-Fi heatmaps which will 
+	supliment other modules. This API allows for fast accurate addition of new buildings and it 
+	supports point of interest(PIO) to PIO navigation (plus easy addition of POI`s). On top of all 
+	this it also has support for crowdsourcing. This API contains many of the main features that NavUp
+	 intends to have, plus a number of extra features that will enhance NavUp`s navigation abilities,
+	  making it a good technology choice for the navigation module.
 
 \subsubsection{Use Case Diagram}
 	\begin{figure}[h!]
