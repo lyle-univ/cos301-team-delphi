@@ -1,0 +1,63 @@
+\documentclass{article}
+\usepackage{hyperref}
+\usepackage{graphicx}
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    filecolor=black,
+    linkcolor=black,
+    urlcolor=black
+}
+\begin{document}
+
+\begin{titlepage}
+	\centering
+	\includegraphics[width=\textwidth]{diagrams/front-page}
+	\vfill
+	{\scshape\LARGE NavUP System\par}
+	\vfill
+	{\scshape\Large Architectural Requirements Specifications and Design\par}
+	\vfill
+	{\Large Group name: Delphi\par}
+	\bigskip 
+	{\itshape\Large Lyle Nel - u29562695\par}
+	{\itshape\Large Nikki Constancon - u15011713\par}
+	{\itshape\Large Corne Els - u14148872\par}	
+	{\itshape\Large Albert Coetzer - u15244882\par}
+	\vfill
+\end{titlepage}
+
+\tableofcontents
+
+\clearpage
+
+\section{Architecture Overview}
+\input{introduction/architecture_overview}
+
+\section{External Interface Requirements}
+\input{introduction/external_interface_requirements}
+
+\section{Performance Requirements}
+\input{introduction/performance_requirements}
+
+\section{Design Constraints}
+\input{introduction/design_constraints}
+
+\section{Glossary}
+\input{introduction/glossary}
+
+\section{Subsystem Architectural Requirements}
+\clearpage
+  \subsection{Data Streaming}
+	\input{subsystem_requirements/data}
+\clearpage
+  \subsection{GIS}
+	\input{subsystem_requirements/gis}
+\clearpage
+  \subsection{Users}
+	\input{subsystem_requirements/users}
+\clearpage
+  \subsection{Navigation}
+	\input{subsystem_requirements/navigation}
+
+\end{document}
