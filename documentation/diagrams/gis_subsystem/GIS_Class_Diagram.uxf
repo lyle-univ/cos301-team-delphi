@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>7</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>301</x>
+      <y>182</y>
+      <w>518</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Composite &gt;&gt;
+__MapManager__
+--
+-GisMap: GIS
+-sendToMap(location: Location)
+--
++createLocation(locationName: String, position: gpsObject,locationType: Integer, description: String, icon: Image)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>329</x>
+      <y>301</y>
+      <w>462</w>
+      <h>161</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Composite &gt;&gt;
+__Location__
+--
+-Icon: Image
+-Description: String
+-Name: String
+-Position: gpsObject
+--
+/+addLocation(venueName: String, position: gpsObject,description: String, icon: Image)/
+/+removeVenue(venueName: String)/
+/+getVenue(venueName: String): Venue/
+/+getLocation():gpsObject/
+/+getDescription(): String/
+/+getName(): String/
+/+getImage(): Image/
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>560</x>
+      <y>532</y>
+      <w>406</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Composite &gt;&gt;
+__Building__
+--
+-Venues: vector&lt;Location*&gt;
+--
++addLocation(venueName: String, position: gpsObject,description: String, icon: Image)
++Building(bld_name: String, position: gpsObject, description: String, icon: Image)
++removeVenue(venueName: String)
++getVenue(venueName: String): Venue
++getLocation():gpsObject
++getDescription(): String
++getName(): String
++getImage(): Image</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>679</x>
+      <y>455</y>
+      <w>21</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;110.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>112</x>
+      <y>532</y>
+      <w>406</w>
+      <h>133</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt; Composite &gt;&gt;
+__Venue__
+--
+
+--
++Venue(venue_name: String, position: gpsObject, description: String, icon: Image)
++getLocation():gpsObject
++getDescription(): String
++getName(): String
++getImage(): Image
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>469</x>
+      <y>42</y>
+      <w>182</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>__GIS__
+--
+-map:mapObject
+--
++createMap()
++displayMap()
++getCurrLocation():gpsObject
++updateMap(location: Location)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>637</x>
+      <y>455</y>
+      <w>21</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>434</x>
+      <y>455</y>
+      <w>21</w>
+      <h>91</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>553</x>
+      <y>245</y>
+      <w>21</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>553</x>
+      <y>126</y>
+      <w>21</w>
+      <h>70</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
