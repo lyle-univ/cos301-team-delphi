@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>200</x>
+      <y>264</y>
+      <w>584</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>__MapManager__
+--
+-sendToMap(location: Location)
+--
++createLocation(locationName: String, position: gpsObject,locationType: Integer, description: String, icon: Image)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>248</x>
+      <y>400</y>
+      <w>528</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>__Location__
+--
+-Icon: Image
+-Description: String
+-Name: String
+-Position: gpsObject
+--
+/+addLocation(venueName: String, position: gpsObject,description: String, icon: Image)/
+/+removeVenue(venueName: String)/
+/+getVenue(venueName: String): Venue/
+/+getLocation():gpsObject/
+/+getDescription(): String/
+/+getName(): String/
+/+getImage(): Image/
+
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>520</x>
+      <y>664</y>
+      <w>464</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>__Building__
+--
+-Venues: vector&lt;Location*&gt;
+--
++addLocation(venueName: String, position: gpsObject,description: String, icon: Image)
++Building(bld_name: String, position: gpsObject, description: String, icon: Image)
++removeVenue(venueName: String)
++getVenue(venueName: String): Venue
++getLocation():gpsObject
++getDescription(): String
++getName(): String
++getImage(): Image</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>664</x>
+      <y>560</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;130.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>0</x>
+      <y>664</y>
+      <w>464</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>__Venue__
+--
+
+--
++Venue(venue_name: String, position: gpsObject, description: String, icon: Image)
++getLocation():gpsObject
++getDescription(): String
++getName(): String
++getImage(): Image
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>344</x>
+      <y>0</y>
+      <w>208</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>__GIS__
+--
+-map:mapObject
+--
++createMap()
++displayMap()
++getCurrLocation():gpsObject
++updateMap(location: Location)
+
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>560</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>408</x>
+      <y>560</y>
+      <w>24</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>440</x>
+      <y>144</y>
+      <w>24</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>488</x>
+      <y>336</y>
+      <w>24</w>
+      <h>80</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;..</panel_attributes>
+    <additional_attributes>10.0;80.0;10.0;10.0</additional_attributes>
+  </element>
+</diagram>
