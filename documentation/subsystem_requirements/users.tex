@@ -3,20 +3,16 @@
 \mbox{}\\
 The user data needs to be secure in order to protect the users. By implementing a secure database in which user data is stored as well as a firewall to protect the server itself we can ensure that the system will remain secure.
 
+Encypting passwords? Albert over here
+
 \paragraph{Portability}
 \mbox{}\\
-The system is inherently designed to be very portable. The user data can be entered regardless of the hardware device being used. This means that users can register on iPhone or Android and Admin users can create users if needed directly from the server. The software independence is also clear as again any device can be used to access and manage the user data.
+The system is inherently designed to be very portable. The user data can be entered regardless of the hardware device being used. This means that users can register on iPhone or Android. Admin users can create users if needed directly from the server. The software independence is also clear as again any device,  rergardless of thier operating system, can be used to access and manage the user data. 
 
 \paragraph{Cohesion}
 \mbox{}\\
-The system is already a very coherent system. The user data will have to be used across a lot of the different subsystems such as Navigation and Rewards and as such it needs to be designed to be portable.
+The system is already a very coherent system. The user data will have to be used across a lot of the different subsystems such as Navigation and Rewards and as such it needs to be designed to be portable. To do this the user subsystem will include a variety of functions to return the required data need by another subsystem . 
 
-<<<<<<< HEAD
-\paragraph{Technology Choices}
-\mbox{}\\
-For the users subsystem we will need a server to host the relevant tables. This server should have a database management software to allow for easy management. The server should be 
-guarded by some form of firewall software to prevent any unwanted access. 
-=======
 \subsubsection{Technology Choices}
 For the users subsystem we will need a server to host the relevant tables. This server should have a database management software to allow for easy management. The server should be 
 guarded by some form of firewall software to prevent any unwanted access. 
@@ -32,4 +28,9 @@ guarded by some form of firewall software to prevent any unwanted access.
 	\makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/users_subsystem/users_class_diagram.pdf}}
 	\caption{Users Class Diagram}
 	\end{figure}
->>>>>>> Albert
+
+\subsubsection{Class Diagram}
+	\begin{figure}[h!]
+	\makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/users_subsystem/users_factory_design_pattern.pdf}}
+	\caption{Users Class Diagram}
+	\end{figure}
