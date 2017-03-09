@@ -16,6 +16,7 @@
 -staffNumber: Integer
 -totalDistanceWalked: Long
 -routes*: Route
+-Degree: String
 
 --
 -calculateTotalDistance(): void
@@ -26,6 +27,8 @@
 +setName(name: String): void
 +setEmail(email: String): void
 +setStaffNumber(staffNumber: Integer): void
++setTotalDistanceWalked(distance: Integer): void
+
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -34,8 +37,8 @@
     <coordinates>
       <x>970</x>
       <y>770</y>
-      <w>430</w>
-      <h>120</h>
+      <w>450</w>
+      <h>210</h>
     </coordinates>
     <panel_attributes>AdminUser
 --
@@ -44,7 +47,12 @@
 +createUser(name: String, email: String, staffNumber: Integer): void
 +deleteUser(staffNumber: Integer): void
 +getUser(staffNumber: Integer): User
-+setUserName(user: User, name: String): void</panel_attributes>
++setUserName(user: User, name: String): void
++setUserEmail(user: User, email: String): void
++setUserDegree(user: User, degree: String): void
++setLocationName(location: Location, name: String): void
++setPointOfInterest(location: Location, name: String) void
++setLocationInformation(location: Location, information: String): void</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
