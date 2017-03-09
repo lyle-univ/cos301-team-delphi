@@ -1,2 +1,28 @@
 \subsubsection{Software Attributes}
+	
+\paragraph{Maintainability}
+\mbox{}\\
+The GIS module should be easily understood and well documented in order to allow future developers the ability to add new functionality to the system or improve already implemented functionality.
 
+\paragraph{Scalability}
+\mbox{}\\
+The GIS system should allow for n buildings and venues as new buildings or venues can be added in the future or the system could be deployed to other universities.
+
+\paragraph{Testability}
+\mbox{}\\
+The GIS system should be easily testable to make sure locations are correctly placed and stored on the map. If the system doesn't test this well it would result in users being navigated to the wrong location.
+
+\paragraph{Security}
+\mbox{}\\
+The GIS system should only allow authorised users to modify or create new locations on the map as a malicious user could place a location in a compromising area in order to for example steal the users phone.
+ 
+
+\subsubsection{Class Diagram}
+
+	\begin{figure}[h!]
+
+	    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/gis_subsystem/GIS_Class_Diagram.pdf}}
+
+\caption{GIS Class Diagram}
+
+	\end{figure}
