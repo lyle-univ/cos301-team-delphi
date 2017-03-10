@@ -20,4 +20,4 @@ Workflow conventions:
 
 4. Merge each document version into master and label the version(we might not need this part)
 
-5. Feature freeze will commence on March 9 6PM. The bulk of work should be done before then, only fixes to typesetting, formatting and other touchups will be done after this time. The idea is that the open issues should deflate to zero, as they are closed one for one, before the complete freeze. Complete freeze will commence 2 hours before the deadline, this means that nothing should be modified after this period. This is to prevent last minute changes having unintended consequences.
+5. Feature freeze will commence on March 11 12PM. The bulk of work should be done before then, only fixes to typesetting, formatting and other touchups will be done after this time. The idea is that the open issues should deflate to zero, as they are closed one for one, before the complete freeze. Complete freeze will commence 2 hours before the deadline, this means that nothing should be modified after this period. This is to prevent last minute changes having unintended consequences.
