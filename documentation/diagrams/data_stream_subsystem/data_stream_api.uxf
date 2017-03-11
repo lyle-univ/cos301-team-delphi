@@ -26,7 +26,8 @@ Data Stream API
     </coordinates>
     <panel_attributes>Support
 Kerberos
-Authentication</panel_attributes>
+Authentication
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -60,7 +61,8 @@ Authentication</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
-Kerberos</panel_attributes>
+Kerberos
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -83,7 +85,8 @@ Kerberos</panel_attributes>
       <h>40</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
-Kafka</panel_attributes>
+Kafka
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -113,19 +116,20 @@ used to compute the
 metadata and publish
 it into the metadata
 topics.
-</panel_attributes>
+
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>780</x>
-      <y>330</y>
-      <w>70</w>
-      <h>40</h>
+      <x>670</x>
+      <y>280</y>
+      <w>180</w>
+      <h>80</h>
     </coordinates>
     <panel_attributes>lt=.</panel_attributes>
-    <additional_attributes>10.0;20.0;50.0;10.0</additional_attributes>
+    <additional_attributes>10.0;10.0;160.0;60.0</additional_attributes>
   </element>
   <element>
     <id>UMLNote</id>
@@ -133,10 +137,12 @@ topics.
       <x>830</x>
       <y>320</y>
       <w>90</w>
-      <h>40</h>
+      <h>60</h>
     </coordinates>
-    <panel_attributes>Topic can 
-exist or not</panel_attributes>
+    <panel_attributes>Topic are
+streams
+of data
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -160,8 +166,21 @@ exist or not</panel_attributes>
     </coordinates>
     <panel_attributes>If the Data Stream
 implementation changes
-the GIS module need not
-know about it.</panel_attributes>
+the other subsystems
+need not know about it.
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>550</x>
+      <y>170</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Façade pattern
+bg=orange</panel_attributes>
     <additional_attributes/>
   </element>
 </diagram>
