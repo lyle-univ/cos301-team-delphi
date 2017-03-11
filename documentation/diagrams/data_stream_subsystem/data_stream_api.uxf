@@ -7,7 +7,7 @@
       <x>440</x>
       <y>230</y>
       <w>370</w>
-      <h>190</h>
+      <h>150</h>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 Data Stream API
@@ -45,12 +45,12 @@ bg=light_gray</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>540</x>
-      <y>410</y>
+      <y>370</y>
       <w>30</w>
-      <h>90</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -62,19 +62,19 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 Kerberos
-bg=light_gray</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>680</x>
-      <y>410</y>
+      <y>370</y>
       <w>30</w>
-      <h>90</h>
+      <h>130</h>
     </coordinates>
     <panel_attributes>lt=&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;70.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;110.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
@@ -86,7 +86,7 @@ bg=light_gray</panel_attributes>
     </coordinates>
     <panel_attributes>&lt;&lt;Interface&gt;&gt;
 Kafka
-bg=light_gray</panel_attributes>
+bg=white</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -139,7 +139,7 @@ bg=light_gray</panel_attributes>
       <w>90</w>
       <h>60</h>
     </coordinates>
-    <panel_attributes>Topic are
+    <panel_attributes>Topics are
 streams
 of data
 bg=light_gray</panel_attributes>
