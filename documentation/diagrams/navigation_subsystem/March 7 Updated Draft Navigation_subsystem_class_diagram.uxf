@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>8</zoom_level>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>144</y>
+      <w>240</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes> 
+Route
+
+--
+/-routeDistance: Double/
+/-totalDistance: Double/
+/-numOfWayPoints: Integer/
+/-startPoint: routeObj/
+/-endPoint: routeObj/
+-specifiedRoute: routeObj
+
+--
++getRoute():</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>272</y>
+      <w>304</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0;360.0;60.0;360.0;160.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>656</x>
+      <y>400</y>
+      <w>216</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>Simplest Route
+--
+/-routeDistance: Double/
+/-totalDistance: Double/
+/-numOfWayPoints: Integer/
+/-startPoint: routeObj/
+/-endPoint: routeObj/
+--
++getRoute(): routeObj
++calculateSimplestRoute(): routeObj</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>424</x>
+      <y>448</y>
+      <w>192</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>Quickest Route
+--
+/-routeDistance: Double/
+/-totalDistance: Double/
+/-numOfWayPoints: Integer/
+/-startPoint: routeObj/
+/-endPoint: routeObj/
+--
++getRoute(): routeObj
++calculateQuickestRoute(): routeObj</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>216</x>
+      <y>416</y>
+      <w>192</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Disability Route
+
+--
+/-routeDistance: Double/
+/-totalDistance: Double/
+/-numOfWayPoints: Integer/
+/-startPoint: routeObj/
+/-endPoint: routeObj/
+--
++getRoute(): routeObj
++calculateDisabilityRoute(): routeObj</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>904</x>
+      <y>408</y>
+      <w>224</w>
+      <h>128</h>
+    </coordinates>
+    <panel_attributes>Shortest Route
+--
+/-routeDistance: Double/
+/-totalDistance: Double/
+/-numOfWayPoints: Integer/
+/-startPoint: routeObj/
+/-endPoint: routeObj/
+--
++getRoute(): routeObj
++calculateShortestRoute(): routeObj
+</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>16</x>
+      <y>392</y>
+      <w>184</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>Scenic Route
+
+--
+/-routeDistance: Double/
+/-totalDistance: Double/
+/-numOfWayPoints: Integer/
+/-startPoint: routeObj/
+/-endPoint: routeObj/
+--
++getRoute(): routeObj
++calculateScenicRoute(): routeObj</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>472</x>
+      <y>272</y>
+      <w>24</w>
+      <h>192</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;220.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>192</x>
+      <y>272</y>
+      <w>792</w>
+      <h>152</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>360.0;10.0;360.0;60.0;10.0;60.0;970.0;60.0;970.0;170.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>256</x>
+      <y>272</y>
+      <w>240</w>
+      <h>160</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>280.0;10.0;280.0;60.0;10.0;60.0;10.0;180.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>72</x>
+      <y>272</y>
+      <w>424</w>
+      <h>136</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;-</panel_attributes>
+    <additional_attributes>510.0;10.0;510.0;60.0;10.0;60.0;10.0;150.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLClass</id>
+    <coordinates>
+      <x>360</x>
+      <y>8</y>
+      <w>264</w>
+      <h>120</h>
+    </coordinates>
+    <panel_attributes>Route Manager
+--
+
+--
+/+getRoute(): routeObj/
++savePreferences(): Boolean
++recordRoute(): void
++deleteRoute(specifiedRoute : routeObj): void
++saveRoute(): void
++modifyRoute(specifiedRoute: routeObj): void</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>592</x>
+      <y>72</y>
+      <w>112</w>
+      <h>144</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;&lt;&lt;&lt;-
+bg=black</panel_attributes>
+    <additional_attributes>40.0;10.0;120.0;10.0;120.0;160.0;10.0;160.0</additional_attributes>
+  </element>
+</diagram>
