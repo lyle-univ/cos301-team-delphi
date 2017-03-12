@@ -65,7 +65,7 @@ low coupling, efficiency, low complexity, feasible maintainability and good port
 	
 	\paragraph{Coupling}
 	\mbox{}\\
-	Although this subsystem will be slightly dependant on some core systems such as GIS, this system
+	Although this subsystem will be slightly dependent on some core systems such as GIS, this system
 	should aim to incorporate loose coupling, being able to be as stand-alone as is necessary. 
 	That is, this system should be able to, for example, provide routes to the user with information 
 	pre-streamed to the system in case of any mishaps (i.e. offline functionality incorporated),
@@ -76,7 +76,7 @@ low coupling, efficiency, low complexity, feasible maintainability and good port
   
 \subsubsection{Technology choices}
 	The Anyplace API will be used as the naviation service for this sub-system. Anyplace is a good 
-	choice in API for a number of reasons: Anyplace is a free API hosted on github and created by 
+	choice in API for a number of reasons: Anyplace is a free API hosted on GitHub and created by 
 	university students. It provides indoor and outdoor navigation with accuracy of 1.96 meters. 
 	This is perfect for NavUP since it uses Wi-Fi to navigate and provides floormaps, which can be 
 	used in the GIS module. It also has additional features such as Wi-Fi heatmaps which will 
@@ -99,5 +99,5 @@ low coupling, efficiency, low complexity, feasible maintainability and good port
 	\end{figure}
 
 \subsubsection{Design Patterns}
-	Both memento and strategy design patter will be used for this subsystem. Memento will persist the saved/recorded routes for later use and strategy will deside how the route will be calculated.
+	Both memento and strategy design patter will be used for this subsystem. Memento will persist the saved/recorded routes for later use and strategy will decide how the route will be calculated.
 

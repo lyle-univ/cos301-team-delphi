@@ -36,7 +36,7 @@ It is important to note that since Kafka serves as a general purpose messaging s
 
 \subsection{Apache Storm}
 Apache Storm is a distributed realtime stream processor. This system complements Kafka well for the extended requirements of generating metadata from the stream of location data. The system will link in throught the stream processor API of Kafka, thus subscribing to the location topic and publishing in the different metadata topics after processing the location data. Even though processing of data streams is supported natively by Kafka, Apache Storm is a more robust and scalable solution supporting a graph processing model that distributes very well over many nodes if needed. Furthermore, this technology satisfies all the machine learning and analysis needs that might arrise during the lifetime of the NavUp system no matter how process intensive it might get.
-\clearpage
+\pagebreak
 \subsection{A convenient API for GIS}
 \begin{figure}[h]
     \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/data_stream_subsystem/data_stream_api.pdf}}
