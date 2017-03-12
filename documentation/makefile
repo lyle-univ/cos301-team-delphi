@@ -13,7 +13,7 @@ images:
 	java -jar Umlet/umlet.jar -action=convert -format=pdf -filename=diagrams/users_subsystem/users_class_diagram.uxf -output=diagrams/users_subsystem/users_class_diagram.pdf;
 	java -jar Umlet/umlet.jar -action=convert -format=pdf -filename=diagrams/users_subsystem/users_factory_design_pattern.uxf -output=diagrams/users_subsystem/users_factory_design_pattern.pdf;
 	java -jar Umlet/umlet.jar -action=convert -format=pdf -filename=diagrams/gis_subsystem/GIS_Class_Diagram.uxf -output=diagrams/gis_subsystem/GIS_Class_Diagram.pdf;
-	java -jar Umlet/umlet.jar -action=convert -format=pdf -filename=diagrams/gis_subsystem/subsystem_gis_use_case_draft.uxf -output=diagrams/gis_subsystem/subsystem_gis_use_case_draft.pdf;
+	java -jar Umlet/umlet.jar -action=convert -format=pdf -filename=diagrams/gis_subsystem/subsystem_gis_use_case.uxf -output=diagrams/gis_subsystem/subsystem_gis_use_case.pdf;
 	java -jar Umlet/umlet.jar -action=convert -format=pdf -filename=diagrams/deployment_diagram.uxf -output=diagrams/deployment_diagram.pdf;
 
 clean:
