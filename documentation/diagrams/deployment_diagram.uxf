@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="14.2">
+  <zoom_level>6</zoom_level>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>24</x>
+      <y>138</y>
+      <w>162</w>
+      <h>270</h>
+    </coordinates>
+    <panel_attributes>Client boundary
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>198</x>
+      <y>108</y>
+      <w>534</w>
+      <h>318</h>
+    </coordinates>
+    <panel_attributes>Server boundary
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>336</x>
+      <y>192</y>
+      <w>390</w>
+      <h>222</h>
+    </coordinates>
+    <panel_attributes>Hadoop cluster
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>534</x>
+      <y>294</y>
+      <w>174</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Apache Kafka Cluster
+distributed messaging system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLGeneric</id>
+    <coordinates>
+      <x>516</x>
+      <y>210</y>
+      <w>204</w>
+      <h>198</h>
+    </coordinates>
+    <panel_attributes>Data Stream Subsystem
+halign=left</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>534</x>
+      <y>360</y>
+      <w>174</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Apache Storm Cluster
+Distributed stream processor</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>672</x>
+      <y>330</y>
+      <w>48</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ Publish</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>618</x>
+      <y>330</y>
+      <w>60</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ Subscribe</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>354</x>
+      <y>312</y>
+      <w>138</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Apache Casandra Cluster
+Distributed database
+management system</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>480</x>
+      <y>366</y>
+      <w>66</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ Push data</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;30.0;90.0;30.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>378</x>
+      <y>366</y>
+      <w>168</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+ Pull data</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0;260.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>534</x>
+      <y>240</y>
+      <w>174</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Facade abstraction layer</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>576</x>
+      <y>270</y>
+      <w>60</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+ Subscribe</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>636</x>
+      <y>270</y>
+      <w>78</w>
+      <h>36</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+ Push topic data</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>210</x>
+      <y>138</y>
+      <w>102</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Kerberos
+Authentication Server</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>354</x>
+      <y>24</y>
+      <w>138</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Each server in the
+server boundary
+uses kerberos authentication
+The lines into the Kerberos
+server would be too many so
+it is left out.
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>306</x>
+      <y>90</y>
+      <w>60</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;80.0;80.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLNote</id>
+    <coordinates>
+      <x>576</x>
+      <y>24</y>
+      <w>150</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>Everything in the Hadoop
+cluster is distributed,
+load balanced and authenticated
+with kerberos. Additionally,
+all traffic is encrypted between
+individual physical nodes  in
+the cluster
+bg=light_gray</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>210</x>
+      <y>288</y>
+      <w>66</w>
+      <h>66</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+GIS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>252</y>
+      <w>312</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+Realtime metadata
+(population density and traffic)</panel_attributes>
+    <additional_attributes>10.0;70.0;190.0;70.0;190.0;10.0;500.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>270</x>
+      <y>330</y>
+      <w>96</w>
+      <h>30</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.&gt;
+Map features
+and images</panel_attributes>
+    <additional_attributes>140.0;20.0;10.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>78</x>
+      <y>258</y>
+      <w>72</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+WebUI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>78</x>
+      <y>156</y>
+      <w>72</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Mobile</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>210</x>
+      <y>210</y>
+      <w>102</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+User Management</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>540</x>
+      <y>330</y>
+      <w>78</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+ Pull topic data</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;50.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>180</y>
+      <w>78</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>110.0;80.0;50.0;80.0;50.0;10.0;10.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>144</x>
+      <y>246</y>
+      <w>78</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>110.0;10.0;50.0;10.0;50.0;80.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>36</x>
+      <y>336</y>
+      <w>78</w>
+      <h>60</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+Navigation</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>108</x>
+      <y>318</y>
+      <w>114</w>
+      <h>54</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>170.0;10.0;70.0;10.0;70.0;70.0;10.0;70.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>42</x>
+      <y>180</y>
+      <w>48</w>
+      <h>168</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;260.0;10.0;10.0;60.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>54</x>
+      <y>276</y>
+      <w>36</w>
+      <h>72</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.</panel_attributes>
+    <additional_attributes>10.0;100.0;10.0;10.0;40.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>516</x>
+      <y>72</y>
+      <w>72</w>
+      <h>132</h>
+    </coordinates>
+    <panel_attributes>lt=.</panel_attributes>
+    <additional_attributes>10.0;200.0;100.0;10.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>0</x>
+      <y>0</y>
+      <w>762</w>
+      <h>450</h>
+    </coordinates>
+    <panel_attributes>Deploymen Diagram</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
