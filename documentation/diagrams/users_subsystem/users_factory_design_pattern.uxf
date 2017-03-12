@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <diagram program="umlet" version="14.2">
-  <zoom_level>10</zoom_level>
+  <zoom_level>9</zoom_level>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>580</x>
-      <y>430</y>
-      <w>300</w>
-      <h>260</h>
+      <x>387</x>
+      <y>315</y>
+      <w>270</w>
+      <h>126</h>
     </coordinates>
     <panel_attributes>User
 --
@@ -18,16 +18,6 @@
 -routes*: Route
 -Degree: String
 
---
--calculateTotalDistance(): void
-+getName(): String
-+getEmail(): String
-+getStaffNumber(): Integer
-+getTotalDistanceWalked(): Long
-+setName(name: String): void
-+setEmail(email: String): void
-+setStaffNumber(staffNumber: Integer): void
-+setTotalDistanceWalked(distance: Integer): void
 
 </panel_attributes>
     <additional_attributes/>
@@ -35,80 +25,63 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>970</x>
-      <y>770</y>
-      <w>450</w>
-      <h>210</h>
+      <x>837</x>
+      <y>378</y>
+      <w>117</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>AdminUser
---
-
---
-+createUser(name: String, email: String, staffNumber: Integer): void
-+deleteUser(staffNumber: Integer): void
-+getUser(staffNumber: Integer): User
-+setUserName(user: User, name: String): void
-+setUserEmail(user: User, email: String): void
-+setUserDegree(user: User, degree: String): void
-+setLocationName(location: Location, name: String): void
-+setPointOfInterest(location: Location, name: String) void
-+setLocationInformation(location: Location, information: String): void</panel_attributes>
+--</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>710</x>
-      <y>680</y>
-      <w>480</w>
-      <h>110</h>
+      <x>504</x>
+      <y>432</y>
+      <w>414</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;40.0;460.0;40.0;460.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;440.0;70.0;440.0;10.0</additional_attributes>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>190</x>
-      <y>430</y>
-      <w>210</w>
-      <h>150</h>
+      <x>45</x>
+      <y>342</y>
+      <w>189</w>
+      <h>63</h>
     </coordinates>
     <panel_attributes>Guest
 --
 -name: String
 -email: String
 
---
-+getName(): String
-+getEmail(): String
-+setName(name: String): void
-+setEmail(email: String): void
+
 </panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>140</y>
-      <w>210</w>
-      <h>80</h>
+      <x>423</x>
+      <y>81</y>
+      <w>189</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Factory
 --
-
---
-+makeUser(): </panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>210</y>
-      <w>30</w>
-      <h>80</h>
+      <x>504</x>
+      <y>144</y>
+      <w>27</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;-</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
@@ -116,88 +89,82 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>1030</x>
-      <y>270</y>
-      <w>210</w>
-      <h>80</h>
+      <x>801</x>
+      <y>198</y>
+      <w>189</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>Admin Factory
 --
-
---
-+makeUser(): </panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>610</x>
-      <y>270</y>
-      <w>210</w>
-      <h>80</h>
+      <x>423</x>
+      <y>198</y>
+      <w>189</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>User Factory
 --
-
---
-+makeUser(): </panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>190</x>
-      <y>270</y>
-      <w>210</w>
-      <h>80</h>
+      <x>45</x>
+      <y>225</y>
+      <w>189</w>
+      <h>45</h>
     </coordinates>
     <panel_attributes>Guest Factory
 --
-
---
-+makeUser(): </panel_attributes>
+</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>230</y>
-      <w>470</w>
-      <h>60</h>
+      <x>504</x>
+      <y>162</y>
+      <w>414</w>
+      <h>54</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>10.0;20.0;450.0;20.0;450.0;40.0</additional_attributes>
+    <additional_attributes>10.0;20.0;440.0;20.0;440.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>280</x>
-      <y>230</y>
-      <w>450</w>
-      <h>60</h>
+      <x>126</x>
+      <y>162</y>
+      <w>405</w>
+      <h>81</h>
     </coordinates>
     <panel_attributes/>
-    <additional_attributes>430.0;20.0;10.0;20.0;10.0;40.0</additional_attributes>
+    <additional_attributes>430.0;20.0;10.0;20.0;10.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1120</x>
-      <y>340</y>
-      <w>30</w>
-      <h>450</h>
+      <x>891</x>
+      <y>261</y>
+      <w>27</w>
+      <h>135</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;430.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;130.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
-      <y>340</y>
-      <w>30</w>
-      <h>110</h>
+      <x>126</x>
+      <y>261</y>
+      <w>27</w>
+      <h>99</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
@@ -205,12 +172,12 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>700</x>
-      <y>340</y>
-      <w>30</w>
-      <h>110</h>
+      <x>504</x>
+      <y>261</y>
+      <w>27</w>
+      <h>72</h>
     </coordinates>
     <panel_attributes>lt=&lt;&lt;.</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;90.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;60.0</additional_attributes>
   </element>
 </diagram>
