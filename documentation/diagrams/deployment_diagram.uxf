@@ -34,8 +34,7 @@ halign=left</panel_attributes>
       <h>371</h>
     </coordinates>
     <panel_attributes>Hadoop cluster
-halign=left
-group=1</panel_attributes>
+halign=left</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -48,8 +47,7 @@ group=1</panel_attributes>
     </coordinates>
     <panel_attributes>&lt;&lt;device&gt;&gt;
 Apache Kafka Cluster
-distributed messaging system
-group=1</panel_attributes>
+distributed messaging system</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -61,8 +59,7 @@ group=1</panel_attributes>
       <h>231</h>
     </coordinates>
     <panel_attributes>Data Stream Subsystem
-halign=left
-group=1</panel_attributes>
+halign=left</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -75,8 +72,7 @@ group=1</panel_attributes>
     </coordinates>
     <panel_attributes>&lt;&lt;device&gt;&gt;
 Apache Storm Cluster
-Distributed stream processor
-group=1</panel_attributes>
+Distributed stream processor</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -88,21 +84,19 @@ group=1</panel_attributes>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
- Publish
-group=1</panel_attributes>
+ Publish</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1330</x>
+      <x>1379</x>
       <y>630</y>
       <w>70</w>
       <h>42</h>
     </coordinates>
-    <panel_attributes>lt=.&gt;
- Subscribe
-group=1</panel_attributes>
+    <panel_attributes>lt=&lt;.
+ Subscribe</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
@@ -115,8 +109,7 @@ group=1</panel_attributes>
     </coordinates>
     <panel_attributes>&lt;&lt;device&gt;&gt;
 Apache Casandra Cluster
-Distributed database management system
-group=1</panel_attributes>
+Distributed database management system</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -128,8 +121,7 @@ group=1</panel_attributes>
       <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
- Push data
-group=1</panel_attributes>
+ Push data</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;70.0;190.0;70.0</additional_attributes>
   </element>
   <element>
@@ -141,8 +133,7 @@ group=1</panel_attributes>
       <h>77</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
- Pull data
-group=1</panel_attributes>
+ Pull data</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;90.0;360.0;90.0</additional_attributes>
   </element>
   <element>
@@ -154,34 +145,31 @@ group=1</panel_attributes>
       <h>42</h>
     </coordinates>
     <panel_attributes>&lt;&lt;device&gt;&gt;
-Facade abstraction layer
-group=1</panel_attributes>
+Facade abstraction layer</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1323</x>
+      <x>1330</x>
       <y>560</y>
       <w>70</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
- Subscribe
-group=1</panel_attributes>
+ Subscribe</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>1435</x>
+      <x>1400</x>
       <y>560</y>
-      <w>56</w>
+      <w>91</w>
       <h>42</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
- Publish
-group=1</panel_attributes>
+ Push topic data</panel_attributes>
     <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
   <element>
@@ -240,8 +228,7 @@ with kerberos. Additionally,
 all traffic is encrypted between
 individual physical nodes  in
 the cluster
-bg=light_gray
-group=1</panel_attributes>
+bg=light_gray</panel_attributes>
     <additional_attributes/>
   </element>
   <element>
@@ -315,5 +302,17 @@ Mobile</panel_attributes>
     <panel_attributes>&lt;&lt;device&gt;&gt;
 User Management</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>1288</x>
+      <y>630</y>
+      <w>91</w>
+      <h>42</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+ Pull topic data</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;40.0</additional_attributes>
   </element>
 </diagram>
