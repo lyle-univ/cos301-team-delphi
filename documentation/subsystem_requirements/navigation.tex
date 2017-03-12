@@ -85,16 +85,19 @@ low coupling, efficiency, low complexity, feasible maintainability and good port
 	this it also has support for crowdsourcing. This API contains many of the main features that NavUp
 	 intends to have, plus a number of extra features that will enhance NavUp`s navigation abilities,
 	  making it a good technology choice for the navigation module.
-
+\pagebreak
 \subsubsection{Use Case Diagram}
 	\begin{figure}[h!]
 	    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/navigation_subsystem/navigation_subsystem_draft.pdf}}
 	\caption{Navigation Use Case}
 	\end{figure}
-
+\pagebreak
 \subsubsection{Class Diagram}
 	\begin{figure}[h!]
 	   \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/navigation_subsystem/Navigation_subsystem_class_diagram_With_DesignP_draft.pdf}}
 	\caption{Navigation Class Diagram}
 	\end{figure}
+
+\subsubsection{Design Patterns}
+	Both memento and strategy design patter will be used for this subsystem. Memento will persist the saved/recorded routes for later use and strategy will deside how the route will be calculated.
 
