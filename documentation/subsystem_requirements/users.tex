@@ -1,9 +1,7 @@
 \subsubsection{Software Attributes}
 \paragraph{Security}
 \mbox{}\\
-The user data needs to be secure in order to protect the users. By implementing a secure database in which user data is stored as well as a firewall to protect the server itself we can ensure that the system will remain secure.
-
-Encypting passwords? Albert over here
+The user data needs to be secure in order to protect the users. By implementing a secure database in which user data is stored as well as a firewall to protect the server itself we can ensure that the system will remain secure. Another form of security that we will need to implement into this system is password encryption. Due to some of the information stored in the user files being somewhat sensitive data (routes walked and common locations visited) it is crucial for us to keep these records secure and safe.
 
 \paragraph{Portability}
 \mbox{}\\
@@ -11,9 +9,10 @@ The system is inherently designed to be very portable. The user data can be ente
 
 \paragraph{Cohesion}
 \mbox{}\\
-The system is already a very coherent system. The user data will have to be used across a lot of the different subsystems such as Navigation and Rewards and as such it needs to be designed to be portable. To do this the user subsystem will include a variety of functions to return the required data need by another subsystem . 
+The system is already a very coherent system. The user data will have to be used across a lot of the different subsystems such as Navigation and Rewards and as such it needs to be designed to be portable. To do this the user subsystem will include a variety of functions to return the required data need by another subsystem. 
 
 \subsubsection{Technology Choices}
+\mbox{}\\
 For the users subsystem we will need a server to host the relevant tables. This server should have a database management software to allow for easy management. The server should be 
 guarded by some form of firewall software to prevent any unwanted access. 
 
@@ -29,7 +28,10 @@ guarded by some form of firewall software to prevent any unwanted access.
 	\caption{Users Class Diagram}
 	\end{figure}
 
-\subsubsection{Class Diagram}
+\subsubsection{Design Pattern Diagram}
+	\paragraph{Reasoning}
+	\mbox{}\\
+	We chose the factory desgin pettern as it will allow us to stream line the process of creating users. 
 	\begin{figure}[h!]
 	\makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/users_subsystem/users_factory_design_pattern.pdf}}
 	\caption{Users Class Diagram}

@@ -1,4 +1,13 @@
 \subsubsection{Scope}
+\paragraph{}
+\mbox{}\\
+The navigation module of this system consists of providing services such as 
+calculating routes for a user and directing one from a specific point to another, 
+as a user would have specified to the system’s input. The system is to be able 
+to get, delete, save, modify and record routes, and effectively and efficiently steer 
+a user to their destination, thus establishing the desired results.In addition to this, 
+the system will endeavour to maintain reliability, robustness, high cohesion, 
+low coupling, efficiency, low complexity, feasible maintainability and good portability. 
 
 
 \subsubsection{Software Attributes}
@@ -31,7 +40,40 @@
 	This system will have high cohesion since all functions will be directed towards the core
 	 function of directing the user from one location to another. Each function will be
 	  strongly related and will work together as a functional unit.
-
+	  
+	\paragraph{Reliability}
+	\mbox{}\\
+	This system should always be able to find the shortest route as well as the simplest route 
+	to get to the desired location. It will always find locations that are accessible and vice 
+	versa, always giving feedback. In addition, information that needs to be synced should be done
+	frequently, so as to adequately and concisely direct to the chosen location based on accurate
+	information. 
+	
+	\paragraph{Robustness}
+	\mbox{}\\
+	This navigation system will not be easily breakable as it will be error-proof to a feasible 
+	extent, to avoid unnecessary faults and not wholly be affected by single application failures. 
+	The system should be able to recover quickly from such failures, or at least be able to 
+	hold up, or return to a valid stage or state.
+	
+	\paragraph{Complexity}
+	\mbox{}\\
+	This system should be as simple as possible, enabling users to easily find routes, select routes,
+	save routes, and subsequently follow their chosen routes without being misled or lost in any way.  
+	After choosing desired routes, this system should allow users to easily modify routes. Thus it should
+	endeavour to be flexible with users to a feasible point.
+	
+	\paragraph{Coupling}
+	\mbox{}\\
+	Although this subsystem will be slightly dependant on some core systems such as GIS, this system
+	should aim to incorporate loose coupling, being able to be as stand-alone as is necessary. 
+	That is, this system should be able to, for example, provide routes to the user with information 
+	pre-streamed to the system in case of any mishaps (i.e. offline functionality incorporated),
+	or be able to give directions without a user having an account, with details to be relayed to and 
+	fro from the DBMS (i.e. Guest users).
+	
+  
+  
 \subsubsection{Technology choices}
 	The Anyplace API will be used as the naviation service for this sub-system. Anyplace is a good 
 	choice in API for a number of reasons: Anyplace is a free API hosted on github and created by 
@@ -43,16 +85,19 @@
 	this it also has support for crowdsourcing. This API contains many of the main features that NavUp
 	 intends to have, plus a number of extra features that will enhance NavUp`s navigation abilities,
 	  making it a good technology choice for the navigation module.
-
+\pagebreak
 \subsubsection{Use Case Diagram}
 	\begin{figure}[h!]
 	    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/navigation_subsystem/navigation_subsystem_draft.pdf}}
 	\caption{Navigation Use Case}
 	\end{figure}
-
+\pagebreak
 \subsubsection{Class Diagram}
 	\begin{figure}[h!]
-	%    \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/data_stream_subsystem/kafka_cluster_use_case.pdf}}
+	   \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/navigation_subsystem/Navigation_subsystem_class_diagram_With_DesignP_draft.pdf}}
 	\caption{Navigation Class Diagram}
 	\end{figure}
+
+\subsubsection{Design Patterns}
+	Both memento and strategy design patter will be used for this subsystem. Memento will persist the saved/recorded routes for later use and strategy will deside how the route will be calculated.
 
