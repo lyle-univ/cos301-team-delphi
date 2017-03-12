@@ -103,7 +103,7 @@ Distributed stream processor</panel_attributes>
     <id>UMLDeployment</id>
     <coordinates>
       <x>1001</x>
-      <y>581</y>
+      <y>574</y>
       <w>238</w>
       <h>63</h>
     </coordinates>
@@ -116,25 +116,25 @@ Distributed database management system</panel_attributes>
     <id>Relation</id>
     <coordinates>
       <x>1148</x>
-      <y>637</y>
+      <y>630</y>
       <w>147</w>
-      <h>56</h>
+      <h>63</h>
     </coordinates>
     <panel_attributes>lt=&lt;.
  Push data</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;60.0;190.0;60.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;70.0;190.0;70.0</additional_attributes>
   </element>
   <element>
     <id>Relation</id>
     <coordinates>
       <x>1029</x>
-      <y>637</y>
+      <y>630</y>
       <w>266</w>
-      <h>70</h>
+      <h>77</h>
     </coordinates>
     <panel_attributes>lt=.&gt;
  Pull data</panel_attributes>
-    <additional_attributes>10.0;10.0;10.0;80.0;360.0;80.0</additional_attributes>
+    <additional_attributes>10.0;10.0;10.0;90.0;360.0;90.0</additional_attributes>
   </element>
   <element>
     <id>UMLDeployment</id>
@@ -230,5 +230,41 @@ individual physical nodes  in
 the cluster
 bg=light_gray</panel_attributes>
     <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLDeployment</id>
+    <coordinates>
+      <x>742</x>
+      <y>546</y>
+      <w>77</w>
+      <h>49</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;device&gt;&gt;
+GIS</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>812</x>
+      <y>546</y>
+      <w>476</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.
+                   Realtime metadata(population density and traffic)</panel_attributes>
+    <additional_attributes>10.0;20.0;660.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>812</x>
+      <y>567</y>
+      <w>203</w>
+      <h>28</h>
+    </coordinates>
+    <panel_attributes>lt=&lt;.&gt;
+Map features and images</panel_attributes>
+    <additional_attributes>270.0;20.0;10.0;20.0</additional_attributes>
   </element>
 </diagram>
