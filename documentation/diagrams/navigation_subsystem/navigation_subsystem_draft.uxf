@@ -42,7 +42,7 @@
       <w>96</w>
       <h>32</h>
     </coordinates>
-    <panel_attributes>Simplist Route
+    <panel_attributes>Simplest Route
 </panel_attributes>
     <additional_attributes/>
   </element>
@@ -337,7 +337,7 @@ style=wordwrap</panel_attributes>
 user can be recorded and saved.
 This route can then be easily
 accessed by a user based on 
-his/her prefered route.
+his/her preferred route.
 bg=blue</panel_attributes>
     <additional_attributes/>
   </element>

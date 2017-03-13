@@ -1,4 +1,4 @@
-\subsubsection{Scope}
+performance\subsubsection{Scope}
 From the provided requirements specification, the data streaming subsystem, in its most abstract form, is concerned with moving information between two or more entities. However, this subsystem is most fit to satisfy the additional requirement of aggregating and processing location data to generate metadata for user profiling, heatmaps and congestion of routes.
 
 \subsubsection{Technology choices}
@@ -15,16 +15,16 @@ We will be using components from the Hadoop framework to build the data streamin
 The subsystem is highly portable, both in terms of operating systems supported as well as seamless failover due to its distributed nature.
 \paragraph{Performance}
 \mbox{}\\
-It is a highly optimised system used by big companies such as Yahoo, Twitter and Pinterest to name a few. Because it is a distributed system, the perfomance needs can always be satisfied by deploying it on more machines. Moreover, the performance scales nearly linearly with the number of machines added to the cluster. Even a single Apache Storm node has a staggering benchmark perfomance of processing 1 million tuples per second.
+It is a highly optimised system used by big companies such as Yahoo, Twitter and Pinterest to name a few. Because it is a distributed system, the performance needs can always be satisfied by deploying it on more machines. Moreover, the performance scales nearly linearly with the number of machines added to the cluster. Even a single Apache Storm node has a staggering benchmark perfomance of processing 1 million tuples per second.
 \paragraph{Integrity}
 \mbox{}\\
 Since it is distributed, if a node fails catastrophically and there is a cluster of nodes, then the failover occurs seamlessly. Additionally, the system can recover from malformed messages and power failures. Due to the above reasons, data integrity as well as the operational integrity of subsystem is very good.
 \paragraph{Maintainability}
 \mbox{}\\
-Due to the large number of big enterprise users, both Apache Kafa and Storm are well maintained with regular updates. This is unlikely to change any time soon, so the entire data streaming subsystem will be easy to maintain. In addition, this subsystem can be very forgiving towards poor maintenance or damage of the infrastructure hosting it because of its distributed and failover properties. Although of course one would want the infrastructure to be well maintained. 
+Due to the large number of big enterprise users, both Apache Kafa and Storm are well maintained with regular updates. This is unlikely to change any time soon, so the entire data streaming subsystem will be easy to maintain. In addition, this subsystem can be very forgiving towards poor maintenance or damage of the infrastructure hosting it because of its distributed and failover properties. Although of course one would want the infrastructure to be well maintained.
 \subsection{Apache Kafka}
 Apache Kafka is bonifide implementation of the \underline{publish subscribe messaging pattern}.
-The distributed messaging system receives data either through the publisher API or the connector API, depending on the needs and implementation details. This data is published in appropriate topics and subsribers subscribe to the appropriate topic to fulfill its purpose. In this way Kafka fully satisfies the abstract requirements layed out in the provided requirements specification, namely, "the messages and their formats and contents must be independent of the actual carriage medium" and "The data module concerns itself primarily with the act of moving information between the two entities". Additionally, stream management and control can be done by a tool developed by Yahoo appropriately called Kafka manager and another built in tool called Kafka Control. In particular, UC10 to UC13 are all satisfied by the recommended technology choice.\par
+The distributed messaging system receives data either through the publisher API or the connector API, depending on the needs and implementation details. This data is published in appropriate topics and subscribers subscribe to the appropriate topic to fulfill its purpose. In this way Kafka fully satisfies the abstract requirements layed out in the provided requirements specification, namely, "the messages and their formats and contents must be independent of the actual carriage medium" and "The data module concerns itself primarily with the act of moving information between the two entities". Additionally, stream management and control can be done by a tool developed by Yahoo appropriately called Kafka manager and another built in tool called Kafka Control. In particular, UC10 to UC13 are all satisfied by the recommended technology choice.\par
 \bigskip
 \noindent
 \begin{figure}[h]
@@ -37,11 +37,10 @@ As for the specific requirements pertaining to location data and other metadata.
 It is important to note that since Kafka serves as a general purpose messaging system ,which other subsystem may make use of, there is no reason why future improvements on the system must be restricted to the above mentioned topics.
 
 \subsection{Apache Storm}
-Apache Storm is a distributed realtime stream processor. This system complements Kafka well for the extended requirements of generating metadata from the stream of location data. The system will link in throught the stream processor API of Kafka, thus subscribing to the location topic and publishing in the different metadata topics after processing the location data. Even though processing of data streams is supported natively by Kafka, Apache Storm is a more robust and scalable solution supporting a graph processing model that distributes very well over many nodes if needed. Furthermore, this technology satisfies all the machine learning and analysis needs that might arrise during the lifetime of the NavUp system no matter how process intensive it might get.
+Apache Storm is a distributed realtime stream processor. This system complements Kafka well for the extended requirements of generating metadata from the stream of location data. The system will link in through the stream processor API of Kafka, thus subscribing to the location topic and publishing in the different metadata topics after processing the location data. Even though processing of data streams is supported natively by Kafka, Apache Storm is a more robust and scalable solution supporting a graph processing model that distributes very well over many nodes if needed. Furthermore, this technology satisfies all the machine learning and analysis needs that might arise during the lifetime of the NavUp system no matter how process intensive it might get.
 \pagebreak
 \subsection{A simple API}
 \begin{figure}[h]
     \makebox[\textwidth][c]{\includegraphics[width=1.4\textwidth]{diagrams/data_stream_subsystem/data_stream_api.pdf}}
 \caption{Facade pattern to abstract away from the internals of the data stream subsystem}
 \end{figure}
-
