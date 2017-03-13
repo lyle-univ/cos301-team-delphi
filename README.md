@@ -1,14 +1,17 @@
 # cos301-team-delphi
 
-Dependencies:
+##Dependencies:
 
-Umlet must be placed in the documentation directory for the makefile to compile diagrams.
+* Umlet must be placed in the documentation directory for the makefile to compile diagrams.
+* pdflatex
 
+##How to compile:
+Make sure that the dependencies are satisfied then run make. All of the diagrams will be compiled on the fly and linked into the final latex document.
 See the projects tab for the current progress of the project
 
 Checkout the wip(work in progress) branch for the most recent work
 
-Workflow conventions:
+##Workflow conventions:
 
 1. Pull and compile before you push
 
