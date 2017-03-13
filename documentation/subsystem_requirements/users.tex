@@ -6,7 +6,7 @@ As per the specification user management will be invloved with the creation of u
 \subsubsection{Software Attributes}
 \paragraph{Security}
 \mbox{}\\
-The user data needs to be secure in order to protect the users. By implementing a secure database in which user data is stored as well as a firewall to protect the server itself we can ensure that the system will remain secure. Another form of security that we will need to implement into this system is password encryption. Due to some of the information stored in the user files being somewhat sensitive data (routes walked and common locations visited) it is crucial for us to keep these records secure and safe.
+The user data needs to be secure in order to protect the users. By implementing a secure database in which user data is stored as well as a firewall to protect the server itself we can ensure that the system will remain secure. User passwords will be secured using the bcrypt hashing algorithm and the tuning parameter will be adjusted to balance both security and performance requirements. Due to some of the information stored in the user files being somewhat sensitive data (routes walked and common locations visited) it is crucial for us to keep these records secure and safe.
 
 \paragraph{Portability}
 \mbox{}\\
